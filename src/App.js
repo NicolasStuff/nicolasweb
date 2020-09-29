@@ -8,6 +8,7 @@ function App() {
       <div className="logo">
         <img className='imgLogo'src={logo}></img>
       </div>
+      
         <pre className='code'>
           <span className="code-line">
             <text className='specialCharacter'>{'{'}</text>
@@ -115,37 +116,37 @@ function App() {
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">HTML</text>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">CSS</text>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">Javascript</text>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">React</text>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">Node</text>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">Express</text>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">Mongobd</text>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
             <text className="valueCharacter">Firebase</text>
             <text className="specialCharacter">"</text>
             <text className="specialCharacter"></text>
             <text className="specialCharacter">]</text>
-            <text className="specialCharacter">,</text>
+            <text className="specialCharacter">, </text>
           </span>
           <span className="code-line">
             <text></text>

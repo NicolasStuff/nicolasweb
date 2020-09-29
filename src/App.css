@@ -17,10 +17,15 @@
 }
 .code{
   background-color: #3F3579;
-  width: 100%;
+  width: 50%;
   height: auto;
   padding-left: 1ch;
   padding-top: 40px;
+  counter-reset: section;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
 }
 .code-line::before {
   counter-increment: section;
@@ -32,12 +37,6 @@
   display: inline-table;
   padding-left: 3ch;
   position: relative;
-} 
-.code {
-  counter-reset: section;
-  font-size: 2em;
-  display: flex;
-  flex-direction: column;
 }
 .keyName {
   color: #e83f55;
@@ -55,3 +54,19 @@
   color: #f39667
 }
 .test {background-color: red}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .body {
+    flex-direction: column;
+  }
+  .code {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .code {
+    font-size: 1.5em;
+  }
+}
