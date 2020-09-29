@@ -281,6 +281,9 @@ function App() {
             <text className='specialCharacter'>{'  }'}</text>
             <text className="specialCharacter">,</text>
           </span>
+          <span className="code-line">
+            <text className='specialCharacter'>{'}'}</text>
+          </span>
         </pre>
     </div>
   );
