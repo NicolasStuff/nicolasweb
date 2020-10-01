@@ -4,16 +4,17 @@
 }
 .logo {
   background-color: #F6F2F6;
-  padding-right: 18%;
-  padding-left: 18%;
-  padding-top: 18%; 
-  padding-bottom: 18%; 
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 11%; 
+  padding-bottom: 18%;
 }
 .imgLogo {
-  height: 25vmin;
-  display: block;
+  height: 30vmax;
+  width: 30vmax;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  /* background-color: red; */
 }
 .code{
   background-color: #3F3579;

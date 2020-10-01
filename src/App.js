@@ -1,13 +1,28 @@
-import React from 'react';
-import logo from './img/logo.png';
+import React, {useEffect, useRef} from 'react';
 import './App.css';
+import lottie from 'lottie-web'
 
 function App() {
+
+  const container = useRef(null)
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: container.current,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: require('./data.json')
+    });
+  }, [])
+
   return (
     <div className='body'>
       <div className="logo">
-        <img className='imgLogo'src={logo}></img>
+        {/* <img className='imgLogo'src={logo}></img> */}
+        <div className="imgLogo" ref={container}></div>
       </div>
+      
       
         <pre className='code'>
           <span className="code-line">
