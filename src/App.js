@@ -1,26 +1,52 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect, useRef, Component} from 'react';
 import './App.css';
 import lottie from 'lottie-web'
+
+let animObj = null;
 
 function App() {
 
   const container = useRef(null)
 
+  // useEffect() {
+  //   var animObj = lottie.loadAnimation({
+  //     container: container.current,
+  //     name: 'bonjour',
+  //     renderer: 'svg',
+  //     loop: false,
+  //     autoplay: true,
+  //     animationData: require('./data.json')
+  //   });
+  // }
   useEffect(() => {
-    lottie.loadAnimation({
+
+    //call the loadAnimation to start the animation
+    animObj = lottie.loadAnimation({
       container: container.current,
+      name: 'bonjour',
       renderer: 'svg',
-      loop: true,
+      loop: false,
       autoplay: true,
       animationData: require('./data.json')
     });
-  }, [])
+  })
+  var handlePlay = () => {
+    animObj.destroy();
+    animObj = lottie.loadAnimation({
+      container: container.current,
+      name: 'bonjour',
+      renderer: 'svg',
+      loop: false,
+      autoplay: true,
+      animationData: require('./data.json')
+    });
+  }
 
   return (
     <div className='body'>
       <div className="logo">
         {/* <img className='imgLogo'src={logo}></img> */}
-        <div className="imgLogo" ref={container}></div>
+        <div className="imgLogo" ref={container} onClick={() => {handlePlay()}}></div>
       </div>
       
       
@@ -38,7 +64,7 @@ function App() {
             <text className="specialCharacter">,</text>
           </span>
           <span className="code-line">
-            <text className="keyName">   profession</text>
+            <text className="keyName">   job</text>
             <text className="specialCharacter">:</text>
             <text className="specialCharacter">  </text>
             <text className="specialCharacter">"</text>
@@ -167,7 +193,7 @@ function App() {
             <text></text>
           </span>
           <span className="code-line">
-            <text className="keyName">  réalisation</text>
+            <text className="keyName">  realisation</text>
             <text className="specialCharacter">:  </text>
             <text className="specialCharacter">[</text>
             <text className="specialCharacter">  </text>
@@ -198,7 +224,7 @@ function App() {
             <text></text>
           </span>
           <span className="code-line">
-            <text className="keyName">  formation</text>
+            <text className="keyName">  education</text>
             <text className="specialCharacter">:</text>
             <text className="specialCharacter">  </text>
             <text className="specialCharacter">{'{'}</text>

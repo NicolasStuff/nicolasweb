@@ -17,13 +17,14 @@
   /* background-color: red; */
 }
 .code{
+  font-family: monospace,monospace;
   background-color: #3F3579;
   width: 50%;
   height: auto;
   padding-left: 1ch;
   padding-top: 40px;
   counter-reset: section;
-  font-size: 1.5em;
+  font-size: 1.2em;
   display: flex;
   flex-direction: column;
   white-space: normal;
@@ -65,9 +66,25 @@
   .code {
     width: 100%;
   }
+  .imgLogo {
+    height: 40vmax;
+    width: 40vmax;
+  }
+  .logo {
+    padding-top: 1%; 
+    padding-bottom: 1%;
+  }
 }
 @media screen and (max-width: 700px) {
   .code {
-    font-size: 1.5em;
+    font-size: 1em;
+  }
+  .imgLogo {
+    height: 40vmax;
+    width: 40vmax;
+  }
+  .logo {
+    padding-top: 1%; 
+    padding-bottom: 1%;
   }
 }
