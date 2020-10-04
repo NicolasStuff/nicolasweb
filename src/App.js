@@ -8,18 +8,7 @@ function App() {
 
   const container = useRef(null)
 
-  // useEffect() {
-  //   var animObj = lottie.loadAnimation({
-  //     container: container.current,
-  //     name: 'bonjour',
-  //     renderer: 'svg',
-  //     loop: false,
-  //     autoplay: true,
-  //     animationData: require('./data.json')
-  //   });
-  // }
   useEffect(() => {
-
     //call the loadAnimation to start the animation
     animObj = lottie.loadAnimation({
       container: container.current,
@@ -30,6 +19,7 @@ function App() {
       animationData: require('./data.json')
     });
   })
+  
   var handlePlay = () => {
     animObj.destroy();
     animObj = lottie.loadAnimation({
@@ -171,6 +161,10 @@ function App() {
             <text className="specialCharacter">"</text>
             <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
+            <text className="valueCharacter">React Native</text>
+            <text className="specialCharacter">"</text>
+            <text className="specialCharacter">, </text>
+            <text className="specialCharacter">"</text>
             <text className="valueCharacter">Node</text>
             <text className="specialCharacter">"</text>
             <text className="specialCharacter">, </text>
@@ -295,7 +289,7 @@ function App() {
             <text className="specialCharacter">:</text>
             <text className="specialCharacter">    </text>
             <text className="specialCharacter">"</text>
-            <a href='https://www.nicolasdev/herokuapp.com' target="_blank" rel="noopener" className="valueCharacter">nicolasivorra.com</a>
+            <a href='https://www.nicolasivorra.com' target="_blank" rel="noopener" className="valueCharacter">nicolasivorra.com</a>
             <text className="specialCharacter">"</text>
           </span>
           <span className="code-line">
