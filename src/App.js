@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, Component} from 'react';
 import './App.css';
 import lottie from 'lottie-web'
+import pdf from './CV-Nicolas-Ivorra.pdf'
 
 let animObj = null;
 
@@ -311,6 +312,16 @@ function App() {
             <text className="specialCharacter">  </text>
             <text className="specialCharacter"> "</text>
             <a href='https://www.linkedin.com/in/nicolas-ivorra-45b852156/' target="_blank" rel="noopener" className="valueCharacter">linkedin.com/in/nicolas-ivorra-45b852156/</a>
+            <text className="specialCharacter">"</text>
+          </span>
+          <span className="code-line">
+            <text className="specialCharacter">    "</text>
+            <text className="codeDate">CV</text>
+            <text className="specialCharacter">"</text>
+            <text className="specialCharacter">:</text>
+            <text className="specialCharacter">  </text>
+            <text className="specialCharacter"> "</text>
+            <a href={pdf} target="_blank" rel="noopener" className="valueCharacter">Cv Nicolas Ivorra</a>
             <text className="specialCharacter">"</text>
           </span>
           <span className="code-line">
