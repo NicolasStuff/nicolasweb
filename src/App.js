@@ -100,6 +100,16 @@ function App() {
             <text className="specialCharacter">:</text>
             <text className="specialCharacter">  </text>
             <text className="specialCharacter">"</text>
+            <text className="valueCharacter">Stage Développeur Mobile FullStack @Bonbo #StationF</text>
+            <text className="specialCharacter">"</text>
+          </span>
+          <span className="code-line">
+            <text className="valueCharacter">     "</text>
+            <text className="codeDate">2020-2020</text>
+            <text className="valueCharacter">"</text>
+            <text className="specialCharacter">:</text>
+            <text className="specialCharacter">  </text>
+            <text className="specialCharacter">"</text>
             <text className="valueCharacter">Freelance Développeur FullStack @PlanificAdore</text>
             <text className="specialCharacter">"</text>
           </span>
@@ -130,7 +140,7 @@ function App() {
             <text className="specialCharacter">:</text>
             <text className="specialCharacter">  </text>
             <text className="specialCharacter">"</text>
-            <text className="valueCharacter">Stagiaire en Communication @Ulysse</text>
+            <text className="valueCharacter">Stagiaire en Communication @UlysseTravel #StationF</text>
             <text className="specialCharacter">"</text>
           </span>
           <span className="code-line">
@@ -199,15 +209,14 @@ function App() {
             <text className="valueCharacter">Lovr App</text>
             <text className="specialCharacter">"</text>
             <text className="specialCharacter">,</text>
-            <text className="specialCharacter">        //Bientôt disponible sur Iphone et Android</text>
+            <text className="specialCharacter"></text>
           </span>
           <span className="code-line">
             <text className="specialCharacter">    </text>
             <text className="specialCharacter">"</text>
             <a href='https://planificadore.herokuapp.com/' className="codeLink">planificAdore.fr</a>
             <text className="specialCharacter">"</text>
-            <text className="specialCharacter">,</text>
-            <text className="specialCharacter">        //Projet heroku en cours de réalisation</text>
+            <text className="specialCharacter"></text>
             <text className="specialCharacter">,</text>
           </span>
           <span className="code-line">
