@@ -195,7 +195,7 @@ function App() {
             <text className="specialCharacter">"</text>
             <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
-            <text className="valueCharacter">Mongobd</text>
+            <text className="valueCharacter"> Mongodb</text>
             <text className="specialCharacter">"</text>
             <text className="specialCharacter">, </text>
             <text className="specialCharacter">"</text>
