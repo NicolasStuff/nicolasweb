@@ -21,8 +21,9 @@
   background-color: #3F3579;
   width: 50%;
   height: auto;
-  padding-left: 1ch;
-  padding-top: 40px;
+  /* padding-left: 1ch; */
+  /* padding-top: 40px; */
+  padding: 20px;
   counter-reset: section;
   font-size: 1.2em;
   display: flex;
@@ -37,23 +38,31 @@
 }
 .code-line {
   display: inline-table;
-  padding-left: 3ch;
+  /* padding-left: 3ch; */
   position: relative;
 }
 .keyName {
   color: #e83f55;
+  font-size: 0.8em;
 }
 .specialCharacter{
   color: #8e81bb;
+  font-size: 0.8em;
+
 }
 .valueCharacter {
   color: #66b555;
+  font-size: 0.8em;
 }
 .codeLink {
-  color: #5cc2d8
+  color: #5cc2d8;
+  font-size: 0.8em;
+
 }
 .codeDate {
-  color: #f39667
+  color: #f39667;
+  font-size: 0.8em;
+
 }
 .test {background-color: red}
 

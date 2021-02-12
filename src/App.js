@@ -41,7 +41,7 @@ function App() {
       </div>
       
       
-        <pre className='code'>
+        <div className='code'>
           <span className="code-line">
             <text className='specialCharacter'>{'{'}</text>
           </span>
@@ -92,6 +92,17 @@ function App() {
             <text className="specialCharacter">:</text>
             <text className="specialCharacter">  </text>
             <text className="specialCharacter">{'{'}</text>
+          </span>
+          <span className="code-line">
+            <text className="valueCharacter">     "</text>
+            <text className="codeDate">2021-2021</text>
+            <text className="valueCharacter">"</text>
+            <text className="specialCharacter">:</text>
+            <text className="specialCharacter">  </text>
+            <text className="specialCharacter">"</text>
+            {/* <a href='mailto:nicolas.ivorra.ni@gmail.com' itemprop="email"><text className="codeLink">nicolas.ivorra.ni@gmail.com</text></a> */}
+            <a href='https://www.consultaway.com/fr/'><text className="valueCharacter codeLink">Freelance developpeur @Consultaway #StationF</text></a>
+            <text className="specialCharacter">"</text>
           </span>
           <span className="code-line">
             <text className="valueCharacter">     "</text>
@@ -340,7 +351,7 @@ function App() {
           <span className="code-line">
             <text className='specialCharacter'>{'}'}</text>
           </span>
-        </pre>
+        </div>
     </div>
   );
 }
