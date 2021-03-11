@@ -18,14 +18,15 @@
 }
 .code{
   font-family: monospace,monospace;
-  background-color: #3F3579;
+  background-color: #1D1D1D;
+  /* background-color: #3F3579; */
   width: 50%;
   height: auto;
   /* padding-left: 1ch; */
   /* padding-top: 40px; */
   padding: 20px;
   counter-reset: section;
-  font-size: 1.2em;
+  font-size: 1em;
   display: flex;
   flex-direction: column;
   white-space: normal;
@@ -64,8 +65,33 @@
   font-size: 0.8em;
 
 }
-.test {background-color: red}
+.test {
+  background-color: red
+}
 
+.discoverText {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  top: 50%;
+  position: relative;
+  color: white;
+  font-family: monospace,monospace;
+}
+
+.discoverContainer {
+  background-color: #1D1D1D;
+    width: 100%;
+  height: 100vh;
+}
+
+.sectionSize {
+  width: 100%;
+  height: 100vh;
+}
+.arrow {
+  padding-left: 10px;
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
@@ -97,3 +123,4 @@
     padding-bottom: 1%;
   }
 }
+
