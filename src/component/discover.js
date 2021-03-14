@@ -5,16 +5,18 @@ import { motion } from "framer-motion"
 function App() {
     return (
         <div className="discoverContainer">
-            <text className="discoverText">
+            <motion.text className="discoverText"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1 }}>
                 Discover
             <motion.text className="discoverText arrow"
-            animate={{ x: 25 }}
-            transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
-            
-            >
-                →
+                    animate={{ x: 25 }}
+                    transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
+                    
+                    >→
             </motion.text>
-            </text>
+            </motion.text>
         </div>
     )
 }
