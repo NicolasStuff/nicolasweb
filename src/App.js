@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <NavBar className='body'></NavBar>
+      {/* <NavBar className='body'></NavBar> */}
       <div className="sectionSize">
         <CodeDesign></CodeDesign>
       </div>

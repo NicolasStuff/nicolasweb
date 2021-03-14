@@ -26,7 +26,7 @@
   /* padding-top: 40px; */
   padding: 20px;
   counter-reset: section;
-  font-size: 1em;
+  font-size: 1.2em;
   display: flex;
   flex-direction: column;
   white-space: normal;
@@ -170,19 +170,18 @@
 
 
 
-
+/* 
 
 
 .body {
   width: 100vw;
   height: 100vh;
-  /* background: linear-gradient(180deg, #0055ff 0%, rgb(0, 153, 255) 100%); */
+  background: linear-gradient(180deg, #0055ff 0%, rgb(0, 153, 255) 100%); 
   overflow: hidden;
   padding: 0; 
   margin: 0;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 nav {
@@ -268,5 +267,5 @@ li {
   align-items: center;
   cursor: pointer;
 }
-
+ */
 
