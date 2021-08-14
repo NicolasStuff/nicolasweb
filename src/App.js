@@ -1,28 +1,53 @@
-import React, { useState, useRef, Component } from 'react';
-import './App.css';
-import CodeDesign from './component/codeDesign'
-import Discover from './component/discover'
-import Profile from './component/profile'
-// import { motion } from "framer-motion"
-import NavBar from './NavBar'
-
+import React, { useState, useRef, Component } from "react";
+import "./App.css";
+import CodeDesign from "./component/codeDesign";
+import Discover from "./component/discover";
+import Profile from "./component/profile";
+import Planif from "./component/planificAdore";
+import Consult from "./component/ConsultAway";
+import Bonbo from "./component/bonbo";
+import JustEez from "./component/justEez";
+import ReactFlix from "./component/reactFlix";
+import MobileDev from "./component/mobilePortfolio";
+import WebDev from "./component/webPortfolio";
 
 function App() {
-
   return (
-    <div>
-      {/* <NavBar className='body'></NavBar> */}
-      <div className="sectionSize">
+    <main className="sectionSize">
+      <section >
         <CodeDesign></CodeDesign>
-      </div>
+      </section>
       <div>
-        <Discover></Discover>
+        <section>
+          <Discover></Discover>
+        </section>
+        <section>
+          <Profile></Profile>
+        </section>
+        <section>
+          <MobileDev></MobileDev>
+        </section>
+        <section>
+          <Consult></Consult>
+        </section>
+        <section>
+          <Bonbo></Bonbo>
+        </section>
+        <section>
+          <WebDev></WebDev>
+        </section>
+        <section>
+          <Planif></Planif>
+        </section>
+        <section>
+          <ReactFlix></ReactFlix>
+        </section>
+        <section>
+          <JustEez></JustEez>
+        </section>
       </div>
-      <div>
-        <Profile></Profile>
-      </div>
-    </div>
-  )
+    </main>
+  );
 }
 
 export default App;
