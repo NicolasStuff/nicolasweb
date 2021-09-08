@@ -4,7 +4,7 @@ import '../App.css';
 function reactFlix() {
   return (
     <div className='portFolioContainer center row whiteBackgroundProjectLeft'>
-      <img src={require('../img/reactFlix.png')} className='reactflixPic'></img>
+      <img src={require('../img/reactFlix.png')} className='webPic'></img>
       <div className='titleAndDescRight'>
         <text className="Title">Streaming platform</text>
         <div className='subtitleContainer'>

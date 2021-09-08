@@ -5,7 +5,7 @@ function Consult() {
   return (
     <div className='portFolioContainer center row whiteBackgroundProjectRight'>
       <div className='titleAndDescRight'>
-        <text className="Title">ConsultAway</text>
+        <text className="TitleMobile">ConsultAway</text>
         <div className='subtitleContainer'>
           <text className="Subtitle">Mobile app of ConsultAway </text>
         </div>

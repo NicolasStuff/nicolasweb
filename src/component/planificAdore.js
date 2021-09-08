@@ -4,7 +4,7 @@ import '../App.css';
 function Planif() {
   return (
     <div className='portFolioContainer center row whiteBackgroundProjectLeft'>
-      <img src={require('../img/planificAdore.png')} className='planifPic'></img>
+      <img src={require('../img/planificAdore.png')} className='webPic'></img>
       <div className='titleAndDescRight'>
         <text className="Title">PlanificAdore</text>
         <div className='subtitleContainer'>

@@ -4,7 +4,7 @@ import '../App.css';
 function justEez() {
   return (
     <div className='portFolioContainer center row whiteBackgroundProjectLeft'>
-      <img src={require('../img/justeez.png')} className='justeezPic'></img>
+      <img src={require('../img/justeez.png')} className='webPic'></img>
       <div className='titleAndDescRight'>
         <text className="Title">JustEez</text>
         <div className='subtitleContainer'>
@@ -17,7 +17,6 @@ function justEez() {
           <text className="Subtitle">Features : Chrono, CRUD, Task Manager </text>
         </div>
       </div>
-      {/* <Carousel></Carousel> */}
     </div>
   )
 }

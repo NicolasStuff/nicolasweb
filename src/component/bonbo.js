@@ -5,7 +5,7 @@ function  Bonbo() {
   return (
     <div className='portFolioContainer center row whiteBackgroundProjectRight'>
       <div className='titleAndDescRight'>
-        <text className="Title">Bonbo</text>
+        <text className="TitleMobile">Bonbo</text>
         <div className='subtitleContainer'>
           <text className="Subtitle">Mobile App of Bonbo </text>
         </div>
@@ -16,7 +16,7 @@ function  Bonbo() {
           <text className="Subtitle">Features : Chat App, Activites suggestions, Health Expert suggestions, Agenda kids Friendly and discount.</text>
         </div>
       </div>
-      <img src={require('../img/Bonbo.png')} className='bonboPic'></img>
+      <img src={require('../img/Bonbo.png')} className='consultPic'></img>
     </div>
   )
 }
