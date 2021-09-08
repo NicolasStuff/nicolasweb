@@ -20,4 +20,5 @@ function justEez() {
     </div>
   )
 }
+
 export default justEez;
